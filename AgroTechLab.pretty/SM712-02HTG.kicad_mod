@@ -1,0 +1,270 @@
+(footprint "SM712-02HTG"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr " SOT23-3")
+	(tags "TVS Diode (Bi-directional)")
+	(property "Reference" "D**"
+		(at -0.5 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "e91e2095-0ac3-46e4-840e-deffd9d95577")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SM712-02HTG"
+		(at -0.5 4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6be91fa2-7f27-40a9-b8ac-3c4a3df74d8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcb19d09-bd4a-4408-af24-277629ea9c0d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b45af34a-6644-42f3-8a84-02f0a40b7db2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42ad6ba6-e85b-4867-85e1-9769413cdd72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.46 -0.65)
+		(end -1.46 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "346bb749-3333-4b4d-a469-eaf3004095ff")
+	)
+	(fp_line
+		(start -0.95 2)
+		(end -0.95 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3394228-682b-4db2-9ada-49308cf47dec")
+	)
+	(fp_line
+		(start -0.95 2.1)
+		(end -0.95 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3867725-14e9-46ba-b035-fbf9a9c535cb")
+	)
+	(fp_line
+		(start -0.8 -0.65)
+		(end -1.46 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e26ce6dd-40f8-4042-9946-055b0f420c73")
+	)
+	(fp_line
+		(start 0.8 -0.65)
+		(end 1.46 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8321f4e-2486-450f-944c-93c677a41daa")
+	)
+	(fp_line
+		(start 1.46 -0.65)
+		(end 1.46 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89dfa917-cae8-47ee-bcce-f9c31f650ff7")
+	)
+	(fp_arc
+		(start -0.95 2)
+		(mid -0.9 2.05)
+		(end -0.95 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1840dfa9-4138-4337-a2da-42713765b184")
+	)
+	(fp_arc
+		(start -0.95 2.1)
+		(mid -1 2.05)
+		(end -0.95 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b8b5f5c-b578-4436-b942-cd9d07f798d1")
+	)
+	(fp_line
+		(start -2.46 -2.535)
+		(end 2.46 -2.535)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff2d9810-195f-4477-bab2-39df1d64a626")
+	)
+	(fp_line
+		(start -2.46 2.535)
+		(end -2.46 -2.535)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cfa88566-c26a-4341-8d5f-ebb75a9eaafd")
+	)
+	(fp_line
+		(start 2.46 -2.535)
+		(end 2.46 2.535)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f0e645a8-d95b-416c-8652-84b18054f6c2")
+	)
+	(fp_line
+		(start 2.46 2.535)
+		(end -2.46 2.535)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d2272f3-4f05-4169-b66d-340e264578fb")
+	)
+	(fp_line
+		(start -1.46 -0.65)
+		(end 1.46 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "48154677-4460-4014-b13c-81222191d210")
+	)
+	(fp_line
+		(start -1.46 0.65)
+		(end -1.46 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "489245b0-4d73-478a-a40e-705602bdf398")
+	)
+	(fp_line
+		(start 1.46 -0.65)
+		(end 1.46 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "234f55ca-1e2b-4d21-96b9-6914a9c4dc8c")
+	)
+	(fp_line
+		(start 1.46 0.65)
+		(end -1.46 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b89a6ee7-612f-45d6-ab7a-f9ff7341d014")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(uuid "2349c606-97cd-46dc-b6b1-2d383d34b957")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 1.145 90)
+		(size 0.78 0.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e3df7691-f0c4-4488-a3ca-6325e95bce73")
+	)
+	(pad "2" smd rect
+		(at 0.95 1.145 90)
+		(size 0.78 0.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "db9332cb-9d16-484c-acd2-6eb5af912a40")
+	)
+	(pad "3" smd rect
+		(at 0 -1.145 90)
+		(size 0.78 0.78)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e64b3aaf-6f4f-4da4-b98c-5a3d9de60dc2")
+	)
+	(model "C:/AgroTechLab/kicad_lib/3D/SM712-02HTG.stp"
+		(offset
+			(xyz 0 0 0.61)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 90)
+		)
+	)
+)
