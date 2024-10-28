@@ -1,0 +1,267 @@
+(footprint "XL4005_Module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 21.3 0)
+		(layer "F.SilkS")
+		(uuid "e22b7306-334a-4654-9a48-e8bc2bf171f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XL4005_Module"
+		(at 35.6 21.5 0)
+		(layer "F.Fab")
+		(uuid "9ef30c5c-28f2-4227-8895-f774287f2d02")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -1.8415 18.9865 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f2f9569-a37c-4778-89df-ad7d205c0a5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1.8415 18.9865 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "caf4d5c6-4bce-4da0-b948-f49a68d5a9ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -1.8415 18.9865 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd351161-f067-4ee0-ab8c-c32078961ef6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -2 -1.9)
+		(end 42.8 20.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1112501a-9245-4b51-88dc-dc150cd92615")
+	)
+	(fp_rect
+		(start -2 -1.9)
+		(end 42.8 20.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e9cf6783-cb44-4a88-930d-b4aab1e4626e")
+	)
+	(fp_text user "Better under 4.5A - If > 50W need heatsink"
+		(at 19.814 11.556 0)
+		(layer "F.SilkS")
+		(uuid "03adcac0-7434-4a54-a51d-df123f70de7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "XL4005"
+		(at 5.414 6.278 0)
+		(layer "F.SilkS")
+		(uuid "2948cbf1-bb3d-42a0-bad4-572d22f9e31c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "IN-"
+		(at 0 16.2 0)
+		(layer "F.SilkS")
+		(uuid "31c7250a-6c71-4533-96ce-782b0309284b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 40.6 2.4765 0)
+		(layer "F.SilkS")
+		(uuid "595ec8ec-5170-4927-a700-f2075316354f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Output: DC 1.25V-36V (adj.) | max. 5A/75W"
+		(at 19.814 9.778 0)
+		(layer "F.SilkS")
+		(uuid "85f99cdf-1b75-477c-9fb2-24f51d7ad94b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "Input: DC 5V-38V"
+		(at 9.4 8 0)
+		(layer "F.SilkS")
+		(uuid "b65a38a5-578b-487c-ba19-64d2a4c07072")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IN+"
+		(at 0.2 2.4 0)
+		(layer "F.SilkS")
+		(uuid "dd80f5a8-ccec-4991-b012-767d62843a5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "OUT-"
+		(at 40.6 16.2 0)
+		(layer "F.SilkS")
+		(uuid "f006eafc-3b89-47ee-8de5-0cffc5d82724")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.08333333333)
+		(uuid "39681cea-bded-47eb-b0a7-08c4b0c6f5bd")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 18.5)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.08333333333)
+		(uuid "592997ee-8b86-42ef-aa53-6c74a59bf96d")
+	)
+	(pad "3" thru_hole roundrect
+		(at 40.9 0)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.08333333333)
+		(uuid "376e7141-60a2-459b-8fb3-d27cca4cedfb")
+	)
+	(pad "4" thru_hole roundrect
+		(at 40.9 18.5)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.08333333333)
+		(uuid "d8b57f1a-22b5-4394-9174-0149053bdcf7")
+	)
+	(model "C:/AgroTechLab/Tools/kicad_lib/3D/1x_Male_Pin_2.54_mm.STEP"
+		(offset
+			(xyz -0.35 0.3 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/AgroTechLab/Tools/kicad_lib/3D/XL4005.step"
+		(offset
+			(xyz 19.5 -14.3 -41)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/AgroTechLab/Tools/kicad_lib/3D/1x_Male_Pin_2.54_mm.STEP"
+		(offset
+			(xyz -0.3 -18.15 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/AgroTechLab/Tools/kicad_lib/3D/1x_Male_Pin_2.54_mm.STEP"
+		(offset
+			(xyz 40.55 0.4 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+	(model "C:/AgroTechLab/Tools/kicad_lib/3D/1x_Male_Pin_2.54_mm.STEP"
+		(offset
+			(xyz 40.55 -18.1 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
